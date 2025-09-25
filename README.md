@@ -27,10 +27,25 @@
 
 ## 🖥️ 動作環境
 
-- Python **3.10+**  
-- [PySide6](https://pypi.org/project/PySide6/)  
-- Windows 10/11 推奨（Linux/macOS でも基本動作可）
+- Windows 10 / 11  
+- Python 不要（exe 版を利用する場合）  
+- Python 3.10+（ソースから実行する場合）
 
 ---
 
+## 📥 インストール方法（ユーザー向け）
 
+1. [Releases ページ](https://github.com/totsuka0405/folderdump/releases) から最新の `FolderDumpApp.exe` をダウンロード  
+2. 任意のフォルダに配置して実行  
+   - インストール不要、単体 exe で動作します  
+3. フォルダをドラッグ＆ドロップ、または「参照」ボタンから追加してご利用ください  
+
+---
+
+## 🚀 開発者向け（ソースから実行）
+
+```bash
+git clone https://github.com/totsuka0405/folderdump.git
+cd folderdump
+pip install -r requirements.txt
+python main.py
